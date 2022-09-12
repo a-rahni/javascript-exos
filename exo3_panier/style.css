@@ -1,0 +1,19 @@
+.title{
+    color: red;
+}
+
+.btn-add{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: greenyellow;
+    width: 200px;
+    /* pour centrer en vertical definir un height avec line_hight
+    height: 30px; 
+    line-height: 30px;
+     ou sans definir height, juste un padding */
+     padding: 10px;
+}
+
+.content-panier{
+    text-align: left;
+}
