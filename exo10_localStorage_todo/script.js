@@ -43,6 +43,7 @@ function refresh() {
       btn.addEventListener('click', function () {
         console.log('cliqué', btn);
 
+        // le innerHTML prend en compte les espaces du coup indeof return toujours -1
         content =btn.previousElementSibling.innerText;
 
         // méthode tab.indexOf(item)
