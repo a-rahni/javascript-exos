@@ -1,6 +1,7 @@
 import { BASE_URL } from "../constants.js";
 
-export class UsersService {
+
+class UsersService {
   constructor() {
     this.url = `${BASE_URL}/users`;
   }
@@ -17,13 +18,14 @@ export class UsersService {
 
   fetchUserById(id) {
     return fetch(`${this.url}/${id}`)
-    .then((response) =>{
-      return response.json();
-    })
-    .then((user) =>{
-      return user;
-    });
+      .then((response) => {
+        return response.json();
+      })
+      .then((users) => {
+        return users;
+      });
   }
 
-
 }
+
+export default new UsersService();
