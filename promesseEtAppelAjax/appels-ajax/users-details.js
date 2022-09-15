@@ -45,3 +45,23 @@ fetch("https://jsonplaceholder.typicode.com/users/"+id)      // ca rend un seule
   .catch((err) => {
     console.error(err.message);
   });
+
+
+  //---------------------------------------------------------
+ // correction formateur
+ /*
+ const $userDetails = document.querySelector("#user-details");
+
+const params = new URLSearchParams(location.search);
+const id = params.get("id");
+
+fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
+  .then((response) => response.json())
+  .then((user) => {
+    $userDetails.innerHTML = `
+      <h1>${user.id} - ${user.name}</h1>
+   <p>${user.email}</p>
+    <p>${user.phone}</p>
+    `;
+  });
+  */
