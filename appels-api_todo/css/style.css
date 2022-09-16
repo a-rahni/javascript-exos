@@ -1,0 +1,30 @@
+
+.todoForm{
+    background-color:bisque;
+    border: 1px solid;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    margin: auto;
+}
+.todoFormMouseenter{
+    font-weight: bold;
+    
+}
+
+/* text barré*/
+.line {
+    text-decoration: line-through;
+    background-color:antiquewhite;
+  }
+
+  .todoItem{
+    background-color:bisque;
+    border: 1px solid;
+    text-align: center;
+    width: 60%;
+    height: 80px;
+    padding: 10px;
+}
+
