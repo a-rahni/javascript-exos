@@ -1,0 +1,18 @@
+let technos = [
+  "Less",
+  "Reactjs & Redux",
+  "React Query",
+  "Redux Saga",
+  "Redux ToolKit",
+  "Svelte",
+  " Vue.js",
+  "Angular",
+  "Le CSS3",
+  "Le SASS",
+  "Le Javascript",
+  "Typescript",
+  "Algorithmes et structures de données",
+  "Introduction à React.js",
+  "React.js avancé",
+  "L'architecture Redux",
+];
